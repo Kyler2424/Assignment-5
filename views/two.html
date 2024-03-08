@@ -1,0 +1,57 @@
+<!--two.html requires
+    - Banner page (can be same as from index)
+    - <nav> element USE FOR THE LINK PART OF TABLE
+    - <h1> element
+    - <table> element (ChatGPT, learngitbranching, )
+    - In short, for this basic HTML table, you are 
+    required to use <table>, <caption>,
+    <thead>, <th>, <tbody>,<tr>, 
+    <td> elements.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<!--Insert banner here-->
+
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+
+<h1>Favorite Coding Resources</h1>
+<table style="width:100%">
+    <caption>Resources</caption>
+    <thead>
+        <tr>
+            <th>Coding Resource</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <nav>
+        <tr>
+            <th>LearnGitBranching</th>
+            <th>
+                <a href="https://learngitbranching.js.org/?locale=en_US">https://learngitbranching.js.org/?locale=en_US</a>
+            </th>
+        </tr>
+        <tr>
+            <th>W3Schools</th>
+            <th>
+                <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+            </th>
+        </tr>
+        <tr>
+            <th>ChatGPT</th>
+            <th>
+                <a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a>
+            </th>
+        </tr>
+    </nav>
+    </tbody>
+</table>
+
+
+</html>
