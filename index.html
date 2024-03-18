@@ -41,6 +41,9 @@
         <h2 class="js-question">How to Use JavaScript in a Webpage</h2>        
         <p class="js-question"> To link to an external JavaScript file, you would use the "script" element along with the "src" attribute. 
             Src gives the path to the java script file. Here is an example:
+            <pre>
+                document.getElementById("output").innerHTML = "Hello, world!";
+            </pre>
             <script src="resources/js-question.js"></script>
 
             <br>  To write JavaScript within the HTML file, you can use the "script" element again and place the java code within there, rather than using "src."
@@ -51,17 +54,12 @@
                   console.log("This function is executed once the page is fully loaded");
                 });
             </script> -->
+            
             <p id="output"></p>
             <script>
                 document.getElementById("output").innerHTML = "Hello, world!";
             </script>
 
-        <pre>
-                window.addEventListener("load", () => {
-                console.log("This function is executed once the page is fully loaded");
-                });
-            </pre>
-            
         
     </body>
 </html>
