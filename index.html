@@ -46,10 +46,14 @@
             <br>  To write JavaScript within the HTML file, you can use the "script" element again and place the java code within there, rather than using "src."
             
         </p>
-            <script>
+            <!-- <script>
                 window.addEventListener("load", () => {
                   console.log("This function is executed once the page is fully loaded");
                 });
+            </script> -->
+            <p id="output"></p>
+            <script>
+                document.getElementById("output").innerHTML = "Hello, world!";
             </script>
 
         <pre>
