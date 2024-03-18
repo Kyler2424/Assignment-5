@@ -1,1 +1,10 @@
 
+#ignoring specific files
+.env
+
+#ignoring specific directories
+/logs
+
+#ignoring file extension type
+
+#ignoring specific file path
