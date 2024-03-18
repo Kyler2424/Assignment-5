@@ -19,26 +19,22 @@
         </nav>
         <h1>Assignment 5</h1>
         <h2 class="css-question">How to Apply CSS to HTML</h2>
+        <p class="css-question">To apply an CSS to an HTML file internally, you can use the "style" element and insert the CSS code in there.
+            
+        </p>
         <p class="css-question">To apply an external CSS to an HTML file, you want to use the "link" tag along with its rel and src attributes.
             The "rel" attribute specifies the relationship between current and linked file.
-            The "src" attribute defines the URL to the file.
+            The "src" attribute defines the URL to the file. Here is an example of applying an external CSS:
         </p>
-        <p class="css-question">To apply an CSS to an HTML file internally, you can use the "style" element and insert the CSS code in there.
-            Here is an example of applying CSS:
-        </p>
-        <style>
-            h4 {
-                    color: red;
-                    background-color: grey;
-                }
-        </style>
+        
+            <link rel="stylesheet" href="resources/css-question.css" />
             <pre>
                 h4 {
                     color: red;
-                    background-color: grey;
+                    background-color: lightgrey;
                 }
             </pre>
-        <h4 class="css-question"> This text is edited by CSS</h4>
+        <h4 class="css-question"> This text is edited by an external CSS file.</h4>
 
     
         <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
